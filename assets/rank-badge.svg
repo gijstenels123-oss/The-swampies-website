@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="420" viewBox="0 0 600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="420" rx="26" fill="url(#paint0_linear_1_2)"/>
+  <path d="M0 265C76 220 142 230 220 256C312 285 374 290 444 270C514 250 552 218 600 225V420H0V265Z" fill="#2B6945"/>
+  <path d="M0 305C91 273 156 280 216 301C288 326 355 331 433 313C515 293 560 270 600 279V420H0V305Z" fill="#1B4B34"/>
+  <path d="M106 170L156 111L197 170H106Z" fill="#2B9B58"/>
+  <path d="M188 170L235 112L283 170H188Z" fill="#52B76D"/>
+  <path d="M283 170L335 110L384 170H283Z" fill="#2B9B58"/>
+  <path d="M371 170L424 112L474 170H371Z" fill="#52B76D"/>
+  <path d="M131 215C145 194 168 182 193 182C220 182 244 193 261 215C278 237 275 266 255 284C231 305 198 306 170 287C149 273 124 252 131 215Z" fill="#5FD77B"/>
+  <circle cx="172" cy="223" r="10" fill="#173B2A"/>
+  <circle cx="230" cy="223" r="10" fill="#173B2A"/>
+  <path d="M177 257C194 268 206 270 219 257" stroke="#173B2A" stroke-width="7" stroke-linecap="round"/>
+  <g opacity="0.7">
+    <path d="M357 224L384 199L410 224H357Z" fill="#2E8C4D"/>
+    <path d="M392 224L424 194L457 224H392Z" fill="#4FB96C"/>
+    <path d="M429 224L463 195L497 224H429Z" fill="#2E8C4D"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="300" y1="0" x2="300" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C382A"/>
+      <stop offset="0.53" stop-color="#0F261D"/>
+      <stop offset="1" stop-color="#0B1E18"/>
+    </linearGradient>
+  </defs>
+</svg>

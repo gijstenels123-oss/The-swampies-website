@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="650" viewBox="0 0 800 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="650" fill="url(#paint0_linear_1_8)"/>
+  <path d="M0 440C118 400 184 410 260 440C358 477 450 470 527 446C615 419 689 356 800 382V650H0V440Z" fill="#2B5A3C"/>
+  <path d="M0 500C118 471 188 474 257 507C332 542 430 543 510 522C601 499 690 466 800 494V650H0V500Z" fill="#1F3F2E"/>
+  <path d="M0 575C75 551 125 560 171 574C243 596 377 590 449 570C531 547 670 533 800 565V650H0V575Z" fill="#163429"/>
+  <g opacity="0.75">
+    <path d="M108 296L162 236L204 296H108Z" fill="#2A7D4D"/>
+    <path d="M180 296L205 236L240 296H180Z" fill="#5E9155"/>
+    <path d="M245 296L290 237L332 296H245Z" fill="#2A7D4D"/>
+    <path d="M297 296L342 239L380 296H297Z" fill="#5E9155"/>
+    <path d="M366 296L418 235L468 296H366Z" fill="#2A7D4D"/>
+    <path d="M445 296L500 236L548 296H445Z" fill="#5E9155"/>
+  </g>
+  <g opacity="0.35">
+    <path d="M82 152H120V228H82V152Z" fill="#114C2D"/>
+    <path d="M146 152H184V228H146V152Z" fill="#114C2D"/>
+    <path d="M214 152H252V228H214V152Z" fill="#114C2D"/>
+    <path d="M282 152H320V228H282V152Z" fill="#114C2D"/>
+    <path d="M351 152H389V228H351V152Z" fill="#114C2D"/>
+  </g>
+  <path d="M522 226C533 198 561 182 594 182C628 182 651 198 662 226C673 252 655 287 623 308C596 326 573 320 553 307C521 286 510 252 522 226Z" fill="#5BC86D"/>
+  <path d="M447 316C476 269 517 249 561 249C618 249 641 291 652 329C662 363 648 401 620 422L487 422C452 401 432 363 447 316Z" fill="#6CE083"/>
+  <path d="M551 262C574 251 597 251 619 262" stroke="#1F5A32" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="523" cy="306" r="16" fill="#112C1A"/>
+  <circle cx="609" cy="306" r="16" fill="#112C1A"/>
+  <circle cx="519" cy="301" r="6" fill="#E8F9EB"/>
+  <circle cx="605" cy="301" r="6" fill="#E8F9EB"/>
+  <path d="M548 352C567 365 600 365 617 352" stroke="#1F5A32" stroke-width="9" stroke-linecap="round"/>
+  <g opacity="0.7">
+    <path d="M405 421L450 374L498 421H405Z" fill="#2C8B4D"/>
+    <path d="M459 421L512 370L565 421H459Z" fill="#3DAA5F"/>
+    <path d="M514 421L570 379L632 421H514Z" fill="#2C8B4D"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_1_8" x1="400" y1="0" x2="400" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A3B2B"/>
+      <stop offset="0.5" stop-color="#102A1D"/>
+      <stop offset="1" stop-color="#0C1E14"/>
+    </linearGradient>
+  </defs>
+</svg>

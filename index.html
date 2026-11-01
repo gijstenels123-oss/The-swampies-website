@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TheSwampiesMC - Minecraft | Content | Community" />
+    <title>THE SWAMPIES</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#home" aria-label="Home">
+          <span class="brand-mark">T</span>
+          <span class="brand-copy">
+            <strong>THE SWAMPIES</strong>
+            <small id="brand-subtitle">Minecraft | Content | Community</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Navigatie openen" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Hoofdnavigatie">
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#shop">Ranks</a>
+          <a href="#serverstatus">Serverstatus</a>
+          <a href="#discord">Discord</a>
+          <a href="#regels">Regels</a>
+        </nav>
+
+        <a class="nav-button" href="#discord">Join Discord</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Minecraft | Content | Community</p>
+            <h1>THE SWAMPIES</h1>
+            <p class="lead">
+              Verken een moerassige Minecraft-community waar avontuur, samenwerking en leuke content centraal staan.
+              Jij bent welkom in onze wereld.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#discord">Join Discord</a>
+              <a class="btn btn-secondary" href="#shop">Bekijk de shop</a>
+            </div>
+            <div class="hero-features">
+              <span>Survival</span>
+              <span>Community</span>
+              <span>Events</span>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-card">
+              <span class="panel-tag">Live</span>
+              <h3>Serverstatus</h3>
+              <ul class="mini-status">
+                <li>
+                  <span>Java</span>
+                  <strong id="hero-java-status">Controleren...</strong>
+                </li>
+                <li>
+                  <span>Bedrock</span>
+                  <strong id="hero-bedrock-status">Controleren...</strong>
+                </li>
+                <li>
+                  <span>Discord</span>
+                  <strong>Actief</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info-strip">
+        <div class="container info-strip-grid">
+          <div>
+            <strong>✔️ Community-driven</strong>
+            <span>Vriendelijke spelers en een hechte groep.</span>
+          </div>
+          <div>
+            <strong>✔️ Frequent content</strong>
+            <span>Leuke updates, events en gezellige gameplay.</span>
+          </div>
+          <div>
+            <strong>✔️ Moeiteloze toegang</strong>
+            <span>Snelle verbinding voor Java en Bedrock spelers.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="serverstatus" class="section status-section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Serverstatus</p>
+            <h2>Check de live status</h2>
+          </div>
+
+          <div class="status-grid">
+            <article class="server-card" data-server="java">
+              <div class="server-topline">
+                <span class="server-label">Java</span>
+                <button class="copy-btn" data-copy-target="java">Kopieer IP</button>
+              </div>
+              <div class="server-ip">node4.serversphere.deltaservers.nl:3002</div>
+              <div class="server-indicator">
+                <span class="status-dot"></span>
+                <span id="java-status-text">Controleren...</span>
+              </div>
+
+              <div class="server-stats">
+                <div>
+                  <span>Spelers</span>
+                  <strong id="java-players">0</strong>
+                </div>
+                <div>
+                  <span>Max</span>
+                  <strong id="java-max">0</strong>
+                </div>
+                <div>
+                  <span>Versie</span>
+                  <strong id="java-version">-</strong>
+                </div>
+              </div>
+
+              <button class="refresh-btn" data-refresh="java">Ververs status</button>
+            </article>
+
+            <article class="server-card" data-server="bedrock">
+              <div class="server-topline">
+                <span class="server-label">Bedrock</span>
+                <button class="copy-btn" data-copy-target="bedrock">Kopieer IP</button>
+              </div>
+              <div class="server-ip">node4.serversphere.deltaservers.nl:3002 UDP</div>
+              <div class="server-indicator">
+                <span class="status-dot"></span>
+                <span id="bedrock-status-text">Controleren...</span>
+              </div>
+
+              <div class="server-stats">
+                <div>
+                  <span>Spelers</span>
+                  <strong id="bedrock-players">0</strong>
+                </div>
+                <div>
+                  <span>Max</span>
+                  <strong id="bedrock-max">0</strong>
+                </div>
+                <div>
+                  <span>Versie</span>
+                  <strong id="bedrock-version">-</strong>
+                </div>
+              </div>
+
+              <button class="refresh-btn" data-refresh="bedrock">Ververs status</button>
+            </article>
+          </div>
+
+          <div class="status-footer">
+            <p id="status-last-updated">Laatste verversing: nog niet gecontroleerd.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="shop" class="section shop-section">
+        <div class="container">
+          <div class="section-head shop-head">
+            <div>
+              <p class="eyebrow">Shop</p>
+              <h2>Upgrade je ervaring</h2>
+            </div>
+            <div id="category-buttons" class="category-buttons" aria-label="Shopcategorieën"></div>
+          </div>
+
+          <div class="shop-layout">
+            <div id="product-grid" class="product-grid" aria-live="polite"></div>
+
+            <aside class="cart-panel">
+              <div class="cart-header">
+                <h3>Winkelmandje</h3>
+                <button id="clear-cart" class="text-button" type="button">Leegmaken</button>
+              </div>
+
+              <div id="cart-items" class="cart-items"></div>
+
+              <div class="cart-total">
+                <span>Totaal</span>
+                <strong id="cart-total">€0,00</strong>
+              </div>
+
+              <p class="cart-note">Aankopen zijn momenteel nog niet beschikbaar. De winkel is alleen voor preview en planning.</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="discord" class="section discord-section">
+        <div class="container discord-box">
+          <div>
+            <p class="eyebrow">Discord</p>
+            <h2>Kom gezellig in onze community</h2>
+            <p>
+              Ontdek nieuws, events, support en een fijne sfeer met andere spelers. Onze Discord is het hart van de community.
+            </p>
+          </div>
+
+          <a class="btn btn-primary btn-large" href="https://discord.gg/kF8AySU4U4" target="_blank" rel="noreferrer">Word lid van onze Discord</a>
+        </div>
+      </section>
+
+      <section id="regels" class="section rules-section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Regels</p>
+            <h2>Onze serverregels</h2>
+          </div>
+
+          <div id="rules-tabs" class="rules-tabs" aria-label="Regelcategorieën"></div>
+          <div id="rules-content" class="rules-content"></div>
+        </div>
+      </section>
+
+      <section id="team" class="section team-section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Ons team</p>
+            <h2>Maak kennis met ons team</h2>
+          </div>
+
+          <div id="team-grid" class="team-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <div>
+          <strong>THE SWAMPIES</strong>
+          <p>Minecraft | Content | Community</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#serverstatus">Serverstatus</a>
+          <a href="#discord">Discord</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
