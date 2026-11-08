@@ -86,8 +86,8 @@ function renderProducts() {
   grid.innerHTML = filteredProducts
     .map(
       (product) => `
-        <article class="product-card">
-          <img src="${product.image}" alt="${product.name}" loading="lazy"${['ranks', 'keys'].includes(product.category) ? ' style="height:280px"' : ''} />
+        <article class="product-card ${['gold', 'diamond', 'emerald', 'netherite'].includes(product.id) ? 'product-card-rank-featured' : ''}">
+          <img src="${product.image}" alt="${product.name}" loading="lazy" />
           <div class="product-card-body">
             <span class="product-tag">${product.badge}</span>
             <h3>${product.name}</h3>
