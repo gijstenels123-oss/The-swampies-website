@@ -2,7 +2,8 @@ const siteConfig = {
   branding: {
     name: 'THE SWAMPIES',
     subtitle: 'Minecraft | Content | Community',
-    intro: 'Ontdek de moerassige wereld van TheSwampiesMC: een gezellige Minecraft-community waar spelers samen bouwen, avontuur beleven en elkaar helpen. Van survival tot creatieve uitdagingen, hier voelt iedereen welkom.'
+    intro: 'Ontdek de moerassige wereld van TheSwampiesMC: een gezellige Minecraft-community waar spelers samen bouwen, avontuur beleven en elkaar helpen. Van survival tot creatieve uitdagingen, hier vind je alles wat je nodig hebt om je ervaring te verbeteren.',
+    cta: 'Word lid van onze community'
   },
   nav: [
     { label: 'Home', href: '#home' },
@@ -48,7 +49,7 @@ const siteConfig = {
         badge: 'Rank',
         price: 2.99,
         description: 'Perfect voor spelers die een eerste upgrade willen.',
-        image: 'assets/rank-badge.svg'
+        image: 'assets/Silver rank logo..PNG'
       },
       {
         id: 'gold',
@@ -57,7 +58,7 @@ const siteConfig = {
         badge: 'Rank',
         price: 5.99,
         description: 'Meer privileges en een sterke status in de community.',
-        image: 'assets/rank-badge.svg'
+        image: 'assets/gold rank logo..PNG'
       },
       {
         id: 'diamond',
@@ -66,7 +67,7 @@ const siteConfig = {
         badge: 'Rank',
         price: 11.99,
         description: 'Voor spelers die een premium uitstraling willen.',
-        image: 'assets/rank-badge.svg'
+        image: 'assets/Diamond rank logo..PNG'
       },
       {
         id: 'emerald',
@@ -75,7 +76,7 @@ const siteConfig = {
         badge: 'Rank',
         price: 19.99,
         description: 'Een rank met meer waardigheid en opvallende voordelen.',
-        image: 'assets/rank-badge.svg'
+        image: 'assets/Emerald rank logo..PNG'
       },
       {
         id: 'netherite',
@@ -84,7 +85,7 @@ const siteConfig = {
         badge: 'Rank',
         price: 29.99,
         description: 'De ultieme status voor de grootste spelers van de server.',
-        image: 'assets/rank-badge.svg'
+        image: 'assets/Netherite rank logo..PNG'
       },
       {
         id: 'kikker-key',
