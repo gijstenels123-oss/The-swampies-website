@@ -95,7 +95,7 @@ const siteConfig = {
         price: 0,
         priceLabel: '500 KikkerCoins',
         description: 'Gebruik deze key voor speciale loot en misterieuze rewards.',
-        image: 'assets/key-art.svg'
+        image: 'assets/Kikker key model.PNG'
       },
       {
         id: 'galaxy-key',
@@ -105,7 +105,7 @@ const siteConfig = {
         price: 0,
         priceLabel: '500 KikkerCoins',
         description: 'Een exclusieve key voor zeldzame bonuscontent en mystieke loot.',
-        image: 'assets/key-art.svg'
+        image: 'assets/Galaxy key model.PNG'
       },
       {
         id: 'season-key',
@@ -115,7 +115,7 @@ const siteConfig = {
         price: 0,
         priceLabel: '500 KikkerCoins',
         description: 'Ontgrendel de tijdelijke seizoensrewards van de server.',
-        image: 'assets/key-art.svg'
+        image: 'assets/Seizoens key model.PNG'
       },
       {
         id: 'coin-750',
@@ -125,7 +125,7 @@ const siteConfig = {
         price: 4.99,
         amount: 750,
         description: 'Handige hoeveelheid KikkerCoins voor snelle upgrades.',
-        image: 'assets/coin-art.svg'
+        image: 'assets/Kikker coins model.PNG'
       },
       {
         id: 'coin-1500',
@@ -135,7 +135,7 @@ const siteConfig = {
         price: 9.99,
         amount: 1500,
         description: 'Goed uitgebalanceerd pakket voor actieve spelers.',
-        image: 'assets/coin-art.svg'
+        image: 'assets/Kikker coins model.PNG'
       },
       {
         id: 'coin-3000',
@@ -145,7 +145,7 @@ const siteConfig = {
         price: 19.99,
         amount: 3000,
         description: 'Voor spelers die vaak hun favoriete content willen uitbreiden.',
-        image: 'assets/coin-art.svg'
+        image: 'assets/Kikker coins model.PNG'
       },
       {
         id: 'coin-6500',
@@ -155,7 +155,7 @@ const siteConfig = {
         price: 42.99,
         amount: 6500,
         description: 'Het grootste pakket voor de meest loyale communityleden.',
-        image: 'assets/coin-art.svg'
+        image: 'assets/Kikker coins model.PNG'
       }
     ]
   },
