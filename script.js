@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderProducts();
   renderCart();
   renderRules();
-  renderTeam();
+  document.getElementById('team')?.remove();
   refreshAllServers();
   bindCopyButtons();
   bindRefreshButtons();
@@ -279,28 +279,6 @@ function bindRuleTabs() {
       renderRules();
     });
   });
-}
-
-function renderTeam() {
-  const teamGrid = document.getElementById('team-grid');
-  if (!teamGrid) return;
-
-  teamGrid.innerHTML = config.team
-    .map(
-      (member) => `
-        <article class="team-card">
-          <div class="member-head">
-            <img src="${member.image}" alt="${member.name}" loading="lazy" />
-          </div>
-          <div class="member-body">
-            <span class="member-tag" style="border-color:${member.color}; color:${member.color};">${member.role}</span>
-            <h3>${member.name}</h3>
-            <p>${member.role}</p>
-          </div>
-        </article>
-      `
-    )
-    .join('');
 }
 
 function bindCopyButtons() {
